@@ -1,0 +1,49 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    /* background-image: url("music-1920x1080-music-notes-music-notes-wallpaper-preview.jpg"); */
+    background-size: cover;
+}
+
+#music-player {
+    background-color: wheat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#album-art {
+    width: 350px;
+    height: 200px;
+    background-color: wheat;
+    border-radius: -300%;
+    margin-bottom: 20px;
+    background-size: cover;
+    
+}
+
+#song-info {
+    margin-bottom: 20px;
+}
+
+#playlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+
