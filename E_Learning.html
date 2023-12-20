@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SQL Learning Platform</title>
+</head>
+<body>
+    <header>
+        <h1>SQL Learning Platform</h1>
+    </header>
+    
+    <main>
+        <section id="lessons">
+            <h2>SQL Lessons</h2>
+            <ul>
+                <li onclick="loadLesson('lesson1')">Introduction to SQL</li>
+                <li onclick="loadLesson('lesson2')">Basic SQL Queries</li>
+                <!-- Add more lessons as needed -->
+            </ul>
+        </section>
+        
+        <section id="lesson-content">
+            <h2 id="lesson-title">Select a lesson to begin</h2>
+            <div id="lesson-body">
+                <p>Select a lesson from the menu to start learning SQL.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 SQL Learning Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
